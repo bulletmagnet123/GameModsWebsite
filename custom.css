@@ -1,0 +1,27 @@
+body {
+    font-family: "Open Sans", sans-serif; 
+    background-color: lightcyan;
+}
+.jumbotron{
+    margin: auto;
+    padding: 50px;
+    background-image: linear-gradient(to right, #5637dd, #c030c5, #ac1414);
+}
+
+h1 {
+    color: red;
+}
+.navbar {
+    background-color: red;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+  
+.carousel {
+    border: solid #5637dd; 
+}
+.img-thumbnail {
+    color: purple;
+    padding: 10px;
+}
