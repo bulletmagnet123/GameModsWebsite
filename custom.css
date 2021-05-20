@@ -1,6 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif; 
-    background-color: lightcyan;
+    background-color: rgb(37, 184, 184);
 }
 .jumbotron{
     margin: auto;
@@ -24,4 +24,14 @@ h1 {
 .img-thumbnail {
     color: purple;
     padding: 10px;
+}
+.carousel-item{
+    width: 100%; /*width you want*/
+    height: 500px; /*height you want*/
+    overflow: hidden;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
