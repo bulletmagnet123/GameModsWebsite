@@ -5,9 +5,12 @@
     <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="/css/custom.css" />
+    <link rel="stylesheet" href="/css/custom.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <!-- endbuild -->
+    <script src="/lib/phaser.min.js"></script>
+    <script src="/node_modules/phaser-matter-collision-plugin/dist/phaser-matter-collision-plugin.min.js"></script>
+    <script src="/node_modules/phaser-matter-collision-plugin/dist/phaser-matter-collision-plugin.min.js.map"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -87,7 +90,8 @@
         <div class="row row-content align-items-center">
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2 class="text-sm-right">Get your texture modding tools and mods here
-                    <button class="btn btn-danger"><a href="https://www.xivmodarchive.com/">Mod archive</a></button>
+                    <a href="https://www.xivmodarchive.com/" class="btn btn-info" id="btnModarchive" role="button">Mod
+                        Archive</a>
                 </h2>
             </div>
 
@@ -160,6 +164,25 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-title">
+                <h1>Survival Game</h1>
+            </div>
+            <div class="cardbody">
+                <p>
+                    Bellow you will find one of my own creations and fun little side projects that ive bin doing.
+                    this is a survival sand box thing. im not done with the tutorial to make it so this thing is in
+                    super alpha mode. and will probably be replaced with something that i will make my self
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="src/index.js"></script>
+
+
+
 </body>
 
 </html>

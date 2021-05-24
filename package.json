@@ -4,6 +4,7 @@
   "description": "FFXIV A realm reborn mod review site",
   "main": "index.html",
   "scripts": {
+    "parcelStart": "parcel serve index.html --open",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "clean": "rimraf dist",
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
@@ -33,6 +34,9 @@
     "bootstrap": "^4.5.2",
     "bootstrap-social": "^5.1.1",
     "jquery": "^3.5.1",
+    "parcel-bundler": "^1.12.5",
+    "phaser": "^3.54.0",
+    "phaser-matter-collision-plugin": "^0.10.2",
     "popper.js": "^1.16.1"
   }
 }
